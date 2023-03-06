@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @cep %>
+
+<div>
+  <%= link_to "Edit this cep", edit_cep_path(@cep) %> |
+  <%= link_to "Back to ceps", ceps_path %>
+
+  <%= button_to "Destroy this cep", @cep, method: :delete %>
+</div>
